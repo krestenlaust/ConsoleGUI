@@ -7,15 +7,15 @@ namespace ApiDemo
     {
         static void Main(string[] args)
         {
-            var form1 =
-                new GroupControl()
-                .AddUIElement(
-                    new LabelControl()
-                    .AddUIElement(
+            var form1 = new GroupControl();
 
-                        )
-                    )
-                .AddUIElement()
+            var subForm1 = new GroupControl(
+                        new LabelControl()
+                        );
+
+            var subForm2 = new GroupControl(
+                        new LabelControl()
+                        );
         }
     }
 }

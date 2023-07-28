@@ -7,5 +7,10 @@ namespace ConsoleGUI.Controls
 {
     public class GroupControl : UIControl
     {
+
+        public GroupControl(params UIControl[] children)
+            : base(children)
+        {
+        }
     }
 }

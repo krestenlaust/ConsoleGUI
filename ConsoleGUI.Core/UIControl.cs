@@ -6,13 +6,18 @@ namespace ConsoleGUI.Core
 {
     public abstract class UIControl
     {
-        ICollection<UIControl> Children = new List<UIControl>();
+        readonly ICollection<UIControl> children;
 
-        public UIControl AddUIElement(UIControl element)
+        public UIControl(params UIControl[] children)
         {
-            Children.Add(element);
+            this.children = children;
+        }
 
-            return this;
+        public UIControl AddControl(UIControl element)
+        {
+            children.Add(element);
+
+            return element;
         }
     }
 }
