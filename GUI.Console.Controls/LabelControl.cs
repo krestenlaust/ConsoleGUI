@@ -2,9 +2,9 @@
 
 namespace GUI.Console.Controls
 {
-    public class LabelControl : UIControl
+    public class LabelControl : Control
     {
-        public LabelControl(params UIControl[] children)
+        public LabelControl(params Control[] children)
             : base(children)
         {
         }

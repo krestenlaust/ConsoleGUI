@@ -2,16 +2,16 @@
 
 namespace GUI
 {
-    public abstract class UIControl
+    public abstract class Control
     {
-        readonly ICollection<UIControl> children;
+        readonly ICollection<Control> children;
 
-        public UIControl(params UIControl[] children)
+        public Control(params Control[] children)
         {
             this.children = children;
         }
 
-        public UIControl AddControl(UIControl element)
+        public Control AddControl(Control element)
         {
             children.Add(element);
 

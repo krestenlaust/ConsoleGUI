@@ -1,9 +1,9 @@
 ﻿namespace GUI.Console.Controls
 {
-    public class GroupControl : UIControl
+    public class GroupControl : Control
     {
 
-        public GroupControl(params UIControl[] children)
+        public GroupControl(params Control[] children)
             : base(children)
         {
         }
