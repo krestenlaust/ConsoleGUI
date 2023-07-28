@@ -1,4 +1,4 @@
-﻿namespace ConsoleGUI.Core
+﻿namespace GUI.Console
 {
     public interface IConsole
     {

@@ -1,7 +1,6 @@
-﻿using ConsoleGUI.Core;
-using System;
+﻿using System;
 
-namespace ConsoleGUI.Controls
+namespace GUI.Console.Controls
 {
     public class LabelControl : UIControl
     {
