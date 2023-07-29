@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GUI.Console.Controls\GUI.Console.Controls.csproj">
+      <Project>{8144e3cb-5fb4-4893-84d4-e03ac4bb9a8a}</Project>
+      <Name>GUI.Console.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GUI.Console.Windows\GUI.Console.Windows.csproj">
+      <Project>{19013489-f163-4cff-a85c-32b129add05e}</Project>
+      <Name>GUI.Console.Windows</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

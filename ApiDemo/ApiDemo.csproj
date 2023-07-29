@@ -8,8 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleGUI.Controls\GUI.Console.Controls.csproj" />
-    <ProjectReference Include="..\ConsoleGUI.Core\GUI.csproj" />
+    <ProjectReference Include="..\GUI.Console.Controls\GUI.Console.Controls.csproj" />
+    <ProjectReference Include="..\GUI.Console\GUI.Console.csproj" />
+    <ProjectReference Include="..\GUI\GUI.csproj" />
   </ItemGroup>
 
 </Project>

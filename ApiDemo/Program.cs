@@ -1,5 +1,4 @@
-﻿using ConsoleGUI.Controls;
-using ConsoleGUI.Core;
+﻿using GUI.Console.Controls;
 
 namespace ApiDemo
 {
