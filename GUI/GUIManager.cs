@@ -9,5 +9,6 @@ namespace GUI
     /// </summary>
     public class GUIManager
     {
+        public Control FocusControl { get; }
     }
 }
