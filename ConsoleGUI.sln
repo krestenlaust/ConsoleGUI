@@ -7,13 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject", "DemoProject\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDemo", "ApiDemo\ApiDemo.csproj", "{AB8CED76-049F-4B25-A7F0-C0016DD8DC47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI.Console", "GUI.Console\GUI.Console.csproj", "{C57BB6C1-D674-4E5E-B3E2-FCAA0F077183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI.Console", "GUI.Console\GUI.Console.csproj", "{C57BB6C1-D674-4E5E-B3E2-FCAA0F077183}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI", "GUI\GUI.csproj", "{7989090F-0AE6-4651-AC5B-0EBE8B723B61}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI.Console.Controls", "GUI.Console.Controls\GUI.Console.Controls.csproj", "{8144E3CB-5FB4-4893-84D4-E03AC4BB9A8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI.Console.Windows", "GUI.Console.Windows\GUI.Console.Windows.csproj", "{19013489-F163-4CFF-A85C-32B129ADD05E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D1F6EA7-CD8D-4EC5-ADEB-DA25E871A2EC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
