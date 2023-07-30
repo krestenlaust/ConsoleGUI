@@ -45,6 +45,10 @@ Some basic layout controls are a must, otherwise it's barely a UI library. I wil
 
 Proably an advanced feature, but would be awesome to have. Always wanted to dive into reactive programming.
 
+ - Easings / Animation
+
+I've used easings a lot before, it shouldn't be too hard to implement them here and make it usable.
+
 ### Out-of-scope
 These are things I've deemed out-of-scope for this project.
 
