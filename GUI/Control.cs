@@ -11,6 +11,17 @@ namespace GUI
             this.children = children;
         }
 
+        /// <summary>
+        /// The size of the control in screen-units.
+        /// </summary>
+        public Size Size { get; set; }
+        
+        /// <summary>
+        /// The position of the control in screen-units.
+        /// </summary>
+        public Vector Position { get; set; }
+
+        // TODO: Reconsider this.
         public Control AddControl(Control element)
         {
             children.Add(element);
