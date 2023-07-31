@@ -5,7 +5,7 @@ using System.Text;
 namespace GUI
 {
     /// <summary>
-    /// Central manager for the GUI library. Handles controls, event handling and overall GUI control management.
+    /// Central manager for the GUI library. Handles all UI-related calculations and events. E.g. input events, and ...
     /// </summary>
     public class GUIManager
     {

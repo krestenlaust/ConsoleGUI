@@ -1,7 +1,13 @@
 ﻿namespace GUI.Input
 {
+    /// <summary>
+    /// Represents a class polling inputs for an input device.
+    /// </summary>
     public interface IPollDevice
     {
-        void Update();
+        /// <summary>
+        /// Refreshes all inputs when called.
+        /// </summary>
+        void Poll();
     }
 }

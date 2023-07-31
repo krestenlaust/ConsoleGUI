@@ -4,27 +4,30 @@ namespace GUI
 {
     public abstract class Control
     {
-        readonly ICollection<Control> children;
-
         public Control(params Control[] children)
         {
-            this.children = children;
+            this.Children = children;
         }
+        
+        /// <summary>
+        /// Gets a collection containing all controls situated within this control.
+        /// </summary>
+        public ICollection<Control> Children { get; }
 
         /// <summary>
-        /// The size of the control in screen-units.
+        /// Gets the size of the control in screen-units.
         /// </summary>
         public Size Size { get; set; }
         
         /// <summary>
-        /// The position of the control in screen-units.
+        /// Gets the position of the control in screen-units.
         /// </summary>
         public Vector Position { get; set; }
 
         // TODO: Reconsider this.
         public Control AddControl(Control element)
         {
-            children.Add(element);
+            Children.Add(element);
 
             return element;
         }
