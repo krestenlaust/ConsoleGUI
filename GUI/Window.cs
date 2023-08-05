@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace GUI
 {
     /// <summary>
-    /// TODO: Turn into interface, to allow custom implementation of window.
+    /// TODO: Maybe turn into interface, to allow custom implementation of window.
     /// </summary>
     public class Window
     {
@@ -13,7 +11,7 @@ namespace GUI
         {
         }
 
-        public Control FocusControl { get; }
+        public Control FocusControl { get; set; }
 
         public ICollection<Control> Controls { get; } = new List<Control>();
 
