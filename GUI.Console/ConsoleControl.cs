@@ -2,6 +2,6 @@
 {
     public abstract class ConsoleControl : Control
     {
-        public abstract void Render(dynamic screenAccess);
+        public abstract void Render(RectangleSegment<char> writeable);
     }
 }
