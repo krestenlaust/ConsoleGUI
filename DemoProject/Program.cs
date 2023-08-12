@@ -17,16 +17,19 @@ namespace DemoProject
             HostApplicationBuilder builder = Host.CreateApplicationBuilder();
             builder.Services.AddTransient<IConsole, ConsoleImpl>();
             builder.Services.AddTransient<IRenderer, ConsoleRenderer>();
+            builder.Services.AddTransient<IInputHandler, InputHandler>();
             host = builder.Build();
 
             // Start application
-            GUIManager manager = new GUIManager(host.Services.GetRequiredService<IRenderer>());
+            GUIManager manager = new GUIManager(
+                host.Services.GetRequiredService<IRenderer>(),
+                host.Services.GetRequiredService<IInputHandler>());
         }
 
         static Control InstantiateGUI()
         {
             GroupControl main = new GroupControl();
-            
+
             main.AddControl(new LabelControl());
 
 
