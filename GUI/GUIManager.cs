@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace GUI
 {
@@ -10,10 +8,12 @@ namespace GUI
     public class GUIManager
     {
         readonly IRenderer renderer;
+        readonly IInputHandler inputHandler;
 
-        public GUIManager(IRenderer renderer)
+        public GUIManager(IRenderer renderer, IInputHandler inputHandler)
         {
             this.renderer = renderer;
+            this.inputHandler = inputHandler;
         }
 
         /// <summary>
@@ -36,6 +36,7 @@ namespace GUI
         /// </remarks>
         public void Update()
         {
+            
         }
 
         public ICollection<Window> Windows { get; } = new List<Window>();

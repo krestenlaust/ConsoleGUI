@@ -1,14 +1,12 @@
 ﻿using GUI.Input;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace GUI
 {
     /// <summary>
     /// Keeps track of inputs and polls them for inputs.
     /// </summary>
-    public class InputHandler : IHandler
+    public class InputHandler : IInputHandler, IHandler
     {
         public void Update()
         {
