@@ -36,7 +36,7 @@ namespace GUI
         /// </remarks>
         public void Update()
         {
-            
+
         }
 
         public ICollection<Window> Windows { get; } = new List<Window>();

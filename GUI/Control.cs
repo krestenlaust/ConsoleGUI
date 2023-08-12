@@ -8,7 +8,7 @@ namespace GUI
         {
             this.Children = children;
         }
-        
+
         /// <summary>
         /// Gets a collection containing all controls situated within this control.
         /// </summary>
@@ -18,7 +18,7 @@ namespace GUI
         /// Gets the size of the control in screen-units.
         /// </summary>
         public Size Size { get; set; }
-        
+
         /// <summary>
         /// Gets the position of the control in screen-units.
         /// </summary>

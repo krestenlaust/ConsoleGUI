@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GUI.Input
+﻿namespace GUI.Input
 {
     /// <summary>
     /// Represents a mouse device, that provides coordinates of the cursors current location in relation to the window.

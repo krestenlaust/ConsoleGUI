@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GUI
+﻿namespace GUI
 {
     public readonly struct Size
     {

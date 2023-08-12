@@ -16,6 +16,17 @@ namespace GUI.Console
             }
         }
 
+        /*
+        public RectangleSegment(T[,] array, int offsetX, int offsetY, int segmentWidth, int segmentHeight)
+        {
+            rows = new Memory<T>[segmentHeight];
+
+            for (int y = offsetY; y < segmentHeight + offsetY; y++)
+            {
+                rows[y] = new Memory<T>(arra)
+            }
+        }*/
+
         public T this[int x, int y]
         {
             get => rows[y].Span[x];
