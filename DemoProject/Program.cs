@@ -4,6 +4,7 @@ using UI.Console.Controls;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using UI.Console.Windows;
+using UI.Handler;
 
 namespace DemoProject
 {
