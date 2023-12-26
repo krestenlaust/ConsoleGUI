@@ -1,31 +1,31 @@
-# ConsoleGUI
+# ConsoleUI
 
 ## Current project overview
-The naming of projects show their _most essential_ chain of dependencies, e.g. _GUI.Console.Windows_ depends on _GUI.Console_ (which in turn depends on _GUI_). This is done to retain my sanity.
+The naming of projects show their _most essential_ chain of dependencies, e.g. _UI.Console.Windows_ depends on _UI.Console_ (which in turn depends on _GUI_). This is done to retain my sanity.
 
-### GUI (core)
+### UI (core)
 This project is really just UI, there's no graphical component yet. It contains all the abstract types related to implementing UI capabilities like event handling.
 
-### GUI.Console (Rendering platform)
+### UI.Console (Rendering platform)
 This project is an example implementation of a platform to render to. It implements various interfaces related to providing UI in a console context.
 
 ## Levels of abstraction
 
 The project is organized in several layers of abstraction, to keep it as extensible as possible.
 
-1. UI Core - Layer (_GUI_)
+1. UI Core - Layer (_UI_)
 
 The core contains strictly UI, no-GUI. It also contains a means of forwarding input, and contains the main update loop,
 which notifies the rendering engine to update the screen, and input handlers to poll input.
 
-2. Rendering platform - Layer (_GUI.Console_ and _GUI.Console.Controls_)
+2. Rendering platform - Layer (_UI.Console_ and _UI.Console.Controls_)
 
 This layer is a unique layer to this project, and is the main focus of it. It abstracts the display of controls to not just being limited to pixels.
 This layer includes a project which implements a text-based UI, and concrete controls which utilize the console window.
 
 An idea for the future, might be to also make a pixel-based (or maybe vector-based) rendering platform.
 
-3. OS API - Layer (_GUI.Console.Windows_)
+3. OS API - Layer (_UI.Console.Windows_)
 
 This layer implements specific OS capabilities, that are dependent on OS API calls, like input and rendering. It is built on top of a rendering platform.
 

@@ -189,21 +189,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GUI.Console.Controls\GUI.Console.Controls.csproj">
-      <Project>{8144e3cb-5fb4-4893-84d4-e03ac4bb9a8a}</Project>
-      <Name>GUI.Console.Controls</Name>
+    <ProjectReference Include="..\UI.Console.Controls\UI.Console.Controls.csproj">
+      <Project>{9316f3b4-3b65-47cd-98fa-009dca0d57a1}</Project>
+      <Name>UI.Console.Controls</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GUI.Console.Windows\GUI.Console.Windows.csproj">
+    <ProjectReference Include="..\UI.Console.Windows\UI.Console.Windows.csproj">
       <Project>{19013489-f163-4cff-a85c-32b129add05e}</Project>
-      <Name>GUI.Console.Windows</Name>
+      <Name>UI.Console.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GUI.Console\GUI.Console.csproj">
-      <Project>{C57BB6C1-D674-4E5E-B3E2-FCAA0F077183}</Project>
-      <Name>GUI.Console</Name>
+    <ProjectReference Include="..\UI.Console\UI.Console.csproj">
+      <Project>{f0b59d34-06a6-4985-b75b-39f5e364ca5c}</Project>
+      <Name>UI.Console</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GUI\GUI.csproj">
-      <Project>{7989090F-0AE6-4651-AC5B-0EBE8B723B61}</Project>
-      <Name>GUI</Name>
+    <ProjectReference Include="..\UI\UI.csproj">
+      <Project>{13d22461-d296-4fbf-b0b3-5b1d59e7d30d}</Project>
+      <Name>UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

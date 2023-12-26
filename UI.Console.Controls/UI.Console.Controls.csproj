@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Container\**" />
+    <EmbeddedResource Remove="Container\**" />
+    <None Remove="Container\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UI.Console\UI.Console.csproj" />
+  </ItemGroup>
+
+</Project>
