@@ -1,7 +1,7 @@
 ﻿using UI.Input;
 using System.Collections.Generic;
 
-namespace UI
+namespace UI.Handler
 {
     /// <summary>
     /// Keeps track of inputs and polls them for inputs.

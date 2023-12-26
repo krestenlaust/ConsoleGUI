@@ -1,4 +1,4 @@
-﻿namespace UI
+﻿namespace UI.Handler
 {
     /// <summary>
     /// Keeps track of all UI-related events like what controls have been clicked, and keyboard input.
